@@ -1,0 +1,22 @@
+{
+  "name": "xbox-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp para verificar cuentas Xbox y detectar Game Pass",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@xboxreplay/xboxlive-auth": "^5.1.0",
+    "whatsapp-web.js": "^1.26.1-alpha.3",
+    "qrcode-terminal": "^0.12.0",
+    "p-limit": "^6.2.0",
+    "axios": "^1.7.9",
+    "express": "^4.19.2"
+  },
+  "keywords": ["xbox", "whatsapp", "bot", "gamepass"],
+  "author": "",
+  "license": "MIT"
+}
